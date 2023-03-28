@@ -1,3 +1,8 @@
+*{
+  background-color: azure;
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+#footer{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  width: 5000px;
+  color: #61dafb;
+}
+#input-fale{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#centralizar-btn{
+  display: flex;
+  justify-content: center;
+}
+#btn-fale{
+  display: flex;
+  justify-content: space-between;
+}
+#mae{
+  display: flex;
+  justify-content: center;
+}
+#input-selecte{
+
+  width: 100px;
+
+  
+}
+#logo{
+  background-color: #282c34;
+}
+.logo{
+  background-color: #282c34;
+}
+.centralizar{
+  border: 2px solid;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
