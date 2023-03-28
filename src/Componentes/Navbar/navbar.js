@@ -11,7 +11,7 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container id='logo'>
-        <Navbar.Brand href="" id='logo'> <img src={Logo} id='logo'/> MyDrink</Navbar.Brand>
+        <Navbar.Brand href="" id='logo'> <img src={Logo} id='logo' alt='foto'/> MyDrink</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='logo' >
           <Nav className="me-auto" id='logo'>
