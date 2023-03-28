@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import BasicExample from '../../Componentes/form/form';
 
 
@@ -10,7 +11,7 @@ function BrandExample() {
     <>
       <Navbar bg="dark">
         <Container id='logo'> 
-          <Navbar.Brand href="#home" id='logo'>
+          <Navbar.Brand as={Link} to="#home" id='logo'>
             <img
               src={Logo}
               width="30"
