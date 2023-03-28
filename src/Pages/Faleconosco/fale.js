@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import BasicExample from '../../Componentes/form/form';
-import SelectBasicExample from '../../Componentes/form/form2';
+
 
 // img
 import Logo from '../../img/glass.svg'
